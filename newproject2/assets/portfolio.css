@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+
+}
+
+
+.header {
+position: fixed;
+top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border: 2px solid #f4f1f1;
+   
+
+
+}
+
+.logo {
+    margin-left: 250px;
+    background-color: #4aaaa5;
+    border-radius: 3px;
+    padding: 30px;
+}
+
+.logo a {
+    text-transform: capitalize;
+    color: white;
+    font-size: 2.3em;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+.navul ul {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 200px;
+}
+
+.navul ul li {
+    list-style-type: none;
+    text-transform: capitalize;
+    color: #999;
+    border-left: 1px solid #efefef;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+
+}
+.navul ul li:hover{
+    font-size: 22px;
+    transition: 0.5s;
+    background-color:aliceblue;
+    border-radius: 15px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 100px;
+    
+}
+.left {
+    border: 1px solid #ddd;
+    width: 730px;
+    height: 800px;
+    padding: 20px;
+}
+
+.right {
+border: 1px solid #ddd;
+    background-color: white;
+    width: 270px;
+    height: 200px;
+    margin-left: 60px;
+    padding: 20px;
+}
+.left .div1{
+    width: 300px;
+    height: 220px;
+    
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    background-size: cover;
+}
+.left .div1 p{
+   background-color: #4aaaa5;
+   width: 100%;
+   padding: 25px;
+   font-size: 23px;
+   text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   ;
+   color: #ddd;
+   position: absolute;
+   bottom: 20px;
+}
+.left .div11{
+    background-image: url("../images/technics-q-c-640-480-1.jpg");
+    
+}
+.left .div2{
+    background-image: url("../images/technics-q-c-640-480-2.jpg");
+}
+.left .div3{
+    background-image: url("../images/technics-q-c-640-480-5.jpg");
+}
+.left .div4{
+    background-image: url("../images/technics-q-c-640-480-7.jpg");
+}
+.left .div5{
+    background-image: url("../images/technics-q-c-640-480-9.jpg");
+}
+.left p{
+padding: 10px;
+  padding-bottom: 15px;
+    font-size: 30px;
+    border-bottom: 3px solid #ddd;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+}
+.right {
+    background-color: white;
+    width: 270px;
+    height: 200px;
+    margin-left: 60px;
+    padding: 20px;
+}
+
+.right h1 {
+    padding-bottom: 20px;
+    font-size: 25px;
+    border-bottom: 3px solid #ddd;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 600;
+    color: #4aaaa5;
+
+}
+
+.right img {
+
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+.footer {
+    
+        padding: 30px 0;
+        font-size: 18px;
+        color: #ccc;
+        text-align: center;
+        background: #666;
+        border-top: 8px solid #4aaaa5;
+        margin-top: 20px;
+    
+}
